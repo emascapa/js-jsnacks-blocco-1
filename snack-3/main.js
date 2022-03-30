@@ -10,6 +10,11 @@ console.log(`Inserisci dieci numeri e ti dico la somma`);
 for (let i = 0; i < 10; i++) {
     number = parseInt(prompt(`Inserisci un numero (iterazione n° ${i+1})`));
     console.log(`hai inserito ${number} all'iterazione ${i+1}`);
+
+/*     if (number == NaN) {
+        number = 0;
+    } */
+
     sum = sum + number;
 }
 
