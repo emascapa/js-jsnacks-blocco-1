@@ -16,6 +16,7 @@ for (let i = 0; i < guests.length; i++) {
     if (userName === guests[i]) {
         invitation = true;
         
+        break;
     }
 
 }
