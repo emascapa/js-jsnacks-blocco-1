@@ -12,6 +12,8 @@ if (firstNumber > secondNumber) {
     console.log(`Il maggiore tra i due numeri è ${firstNumber}`);
 } else if (firstNumber < secondNumber) {
     console.log(`Il maggiore tra i due numeri è ${secondNumber}`);
+} else if (firstNumber === secondNumber) {
+    console.log(`I due numeri si equivalgono`);
 } else {
-    console.log(`I due numeri si equivalgono oppure non hai inserito un numero`);
+    console.log(`Si vede che hai inserito uno o più input NaN`);
 }
