@@ -6,10 +6,10 @@ let sum = 0;
 let number;
 
 
-console.log(`Inseridci dieci numeri e ti dico la somma`);
+console.log(`Inserisci dieci numeri e ti dico la somma`);
 for (let i = 0; i < 10; i++) {
     number = parseInt(prompt(`Inserisci un numero (iterazione n° ${i+1})`));
-    console.log(`hai inserito ${number} alla iterazione ${i+1}`);
+    console.log(`hai inserito ${number} all'iterazione ${i+1}`);
     sum = sum + number;
 }
 
